@@ -1,12 +1,4 @@
-body,
-h1,
-h2,
-ul,
-li,
-p,
-dd,
-dt,
-dl {
+body, h1, h2, ul, li, p, dd, dt, dl {
   margin: 0px;
   padding: 0px;
 }
@@ -197,9 +189,7 @@ body {
   .grid-container {
     grid-template-columns: 1fr;
   }
-  .menu,
-  .grid-section,
-  .copy {
+  .menu, .grid-section, .copy {
     grid-column: 1;
   }
   .grid-section {
@@ -209,9 +199,7 @@ body {
   .animais-lista {
     grid-column: 1;
   }
-  .faq-lista,
-  .dados,
-  .mapa {
+  .faq-lista, .dados, .mapa {
     grid-column: 1 / 3;
   }
   .grid-section h1 {
